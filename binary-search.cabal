@@ -42,6 +42,7 @@ Description:
             <<https://travis-ci.org/nushio3/binary-search.svg?branch=master>>
 
 library
+  default-language: Haskell2010
   exposed-modules:  Numeric.Search
                     Numeric.Search.Bounded
                     Numeric.Search.Integer
@@ -54,6 +55,7 @@ library
                   , containers >= 0.4
 
 Test-Suite doctest
+  default-language: Haskell2010
   Type: exitcode-stdio-1.0
   HS-Source-Dirs: test
   Ghc-Options: -threaded -Wall
@@ -64,6 +66,7 @@ Test-Suite doctest
                   , doctest >= 0.9.3
 
 Test-Suite spec
+  default-language: Haskell2010
   Type: exitcode-stdio-1.0
   Hs-Source-Dirs: test
   Ghc-Options: -Wall
