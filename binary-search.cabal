@@ -1,3 +1,4 @@
+cabal-version:  2.0
 Name:           binary-search
 Version:        2.0.0
 Build-Type:     Simple
@@ -39,8 +40,6 @@ Description:
             *  "Numeric.Search.Bounded" ,  "Numeric.Search.Integer" ,  "Numeric.Search.Range" provides the various specialized searchers, which means less number of function arguments, and easier to use.
             .
             <<https://travis-ci.org/nushio3/binary-search.svg?branch=master>>
-
-cabal-version:      >=1.8
 
 library
   exposed-modules:  Numeric.Search
