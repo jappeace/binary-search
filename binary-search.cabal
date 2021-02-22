@@ -1,10 +1,10 @@
 Name:           binary-search
-Version:        1.0.0.3
+Version:        2.0.0
 Build-Type:     Simple
 License:        BSD3
 license-file:   LICENSE
-Author:         Ross Paterson <ross@soi.city.ac.uk>, Takayuki Muranushi <muranushi@gmail.com>
-Maintainer:     Takayuki Muranushi <muranushi@gmail.com>
+Author:         supercede <support@supercede.com>, Ross Paterson <ross@soi.city.ac.uk>, Takayuki Muranushi <muranushi@gmail.com>
+Maintainer:     supercede <support@supercede.com>
 Category:       Algorithms
 Synopsis:       Binary and exponential searches
 Description:
@@ -81,4 +81,4 @@ Test-Suite spec
 
 Source-Repository head
   Type: git
-  Location: https://github.com/nushio3/binary-search
+  Location: https://github.com/riskbook/binary-search
